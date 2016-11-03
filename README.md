@@ -27,3 +27,5 @@ STPivot is Pentaho plugin for visualizing OLAP cubes.
 * Many format export including CSV, PDF, Excel and HTML.
 * MDX execution history log.
 * Email tool for sending your own analysis.
+
+STPivot is supported by StrateBI in http://www.stratebi.com
