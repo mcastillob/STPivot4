@@ -3,7 +3,7 @@
 
 STPivot is based on the old Pivot4J project where functionality has been added, improved and extended. These techincal features are mentioned below.
 
-For additional information, you may visit STPivot Project page at http://www.stratebi.com/download-github
+For additional information, you may visit STPivot Project page at http://bit.ly/2gdy09H
 
 Main Features:
 
@@ -19,5 +19,3 @@ Main Features:
 * Non MDX gran totals (min,max,avg and sum) per member, hierarchy or axis.
 * New user friendly Selector Area
 * and more…
-
-STPivot is supported by StrateBI in http://www.stratebi.com
