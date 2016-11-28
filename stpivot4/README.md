@@ -9,4 +9,4 @@ is independent of any particular GUI implementation.
 Project Page
 =======
 
-Please visit STPivot4 home page at http://www.stratebi.com
+Please visit STPivot4 home page at http://www.stratebi.com/download-github
