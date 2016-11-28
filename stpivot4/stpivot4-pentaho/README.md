@@ -6,4 +6,4 @@ This project contains a plugin for the Pentaho BI platform which is based on the
 Project Page
 =======
 
-For more information, please visit the STPivot4 homepage at http://www.stratebi.com
+For more information, please visit the STPivot4 homepage at http://www.stratebi.com/download-github
