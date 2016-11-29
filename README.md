@@ -3,7 +3,7 @@
 
 STPivot4 is based on the old Pivot4J project where functionality has been added, improved and extended. These techincal features are mentioned below.
 
-For additional information, you may visit STPivot Project page at http://bit.ly/2gdy09H
+For additional information, you may visit STPivot4 Project page at http://bit.ly/2gdy09H
 
 Main Features:
 
