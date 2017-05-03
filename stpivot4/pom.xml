@@ -76,7 +76,7 @@ It aims to leverage mature but now discontinued JPivot project's codebase to mak
 		<version.slf4j>1.7.7</version.slf4j>
 		<version.log4j>2.0.2</version.log4j>
 
-		<version.mondrian>3.12.0.1-196</version.mondrian>
+		<version.mondrian>3.13.0.5-87</version.mondrian>
 		
 		<version.olap4j>1.2.0</version.olap4j>
 		
@@ -432,6 +432,14 @@ It aims to leverage mature but now discontinued JPivot project's codebase to mak
 			<name>Pentaho Repository</name>
 			<url>http://nexus.pentaho.org/content/repositories/</url>
 		</repository>
+
+
+                 <repository>
+                        <id>pentaho2</id>
+                        <name>Pentaho Repository2</name>
+                        <url>http://repository.pentaho.org/artifactory/repo</url>
+                </repository>
+
 	</repositories>		
 
 </project>

@@ -457,7 +457,9 @@ public class PivotComponentBuilder extends
 
 				UIParameter cellParam = new UIParameter();
 				cellParam.setName("cell");
-				cellParam.setValue(parameters.getCellOrdinal());
+				cellParam.setValue(parameters.getCellCoordinate()[0]);
+				//cellParam.setValue(parameters.getCellOrdinal());
+				
 				button.getChildren().add(cellParam);
 
 				column.getChildren().add(button);

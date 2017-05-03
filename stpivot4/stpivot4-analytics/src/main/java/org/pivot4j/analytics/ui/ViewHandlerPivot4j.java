@@ -641,8 +641,13 @@ public class ViewHandlerPivot4j implements QueryListener, ModelChangeListener {
 		}
 
 		if (requestParameters.containsKey("cell")) {
-			parameters.setCellOrdinal(Integer.parseInt(requestParameters
-					.get("cell")));
+			
+			int[] coorCell=new int[1];									
+			coorCell[0]   =Integer.parseInt(requestParameters.get("cell"));										
+			parameters.setCellCoordinate(coorCell);
+				
+			
+			//parameters.setCellOrdinal(Integer.parseInt(requestParameters.get("cell")));
 		}
 
 		UICommand<?> command = renderer.getCommand(requestParameters
@@ -999,7 +1004,10 @@ public class ViewHandlerPivot4j implements QueryListener, ModelChangeListener {
 		@Override
 		public ResultSet execute(PivotModel model,
 				UICommandParameters parameters) {
-			Cell cell = model.getCellSet().getCell(parameters.getCellOrdinal());
+			
+			//Cell cell = model.getCellSet().getCell(parameters.getCellOrdinal());
+			
+			Cell cell = model.getCellSet().getCell(parameters.getCellCoordinate()[0]);
 
 			drillThroughHandler.update(cell);
 
